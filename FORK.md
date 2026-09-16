@@ -27,7 +27,8 @@ Prefer OficialLM adapters over fork diffs when a Cap’n Web hook is enough — 
 
 Document each fork-only diff here when landed:
 
-1. *(none yet)* — baseline tracks upstream `main` for submodule bootstrap.
+1. `packages/workshop-backend`: `build:validate` + `capnweb-validate/` sync for OficialLM Vite/Worker import.
+2. `packages/workshop-backend/src/oficiallm/execute-tools.ts` — documented harness/execute tool hook surface for OficialLM.
 
 ## Upstream merge cadence
 
