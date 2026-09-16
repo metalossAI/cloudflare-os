@@ -29,6 +29,7 @@ Document each fork-only diff here when landed:
 
 1. `packages/workshop-backend`: `build:validate` + `capnweb-validate/` sync for OficialLM Vite/Worker import.
 2. `packages/workshop-backend/src/oficiallm/execute-tools.ts` — documented harness/execute tool hook surface for OficialLM.
+3. Root `packageManager` pinned to `pnpm@10.12.1` to match OficialLM monorepo (upstream uses pnpm 11).
 
 ## Upstream merge cadence
 
